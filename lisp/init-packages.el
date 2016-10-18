@@ -41,7 +41,7 @@
 (require 'hungry-delete)
 (global-hungry-delete-mode)
 
-(require 'smartparens-config)
+;; no need to require since the function def is auto load
 (smartparens-global-mode t)
 
 
