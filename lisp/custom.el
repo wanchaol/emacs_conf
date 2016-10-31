@@ -8,7 +8,10 @@
  '(custom-safe-themes
    (quote
     ("6c62b1cd715d26eb5aa53843ed9a54fc2b0d7c5e0f5118d4efafa13d7715c56e" default)))
- '(org-agenda-files nil))
+ '(org-agenda-files nil)
+ '(package-selected-packages
+   (quote
+    (use-package evil ace-window company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin reveal-in-osx-finder))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

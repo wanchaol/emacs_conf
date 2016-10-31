@@ -17,7 +17,7 @@
 				   exec-path-from-shell
 				   popwin
 				   reveal-in-osx-finder
-				   
+				   evil
 				   )  "Default packages")
 
 (setq package-selected-packages wanchaol/packages)
@@ -44,7 +44,7 @@
 
 ;; no need to require since the function def is auto load
 (smartparens-global-mode t)
-
+(sp-local-pair 'emacs-lisp-mode "'" nil :actions nil)
 
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
@@ -59,5 +59,6 @@
 (load-theme 'monokai t)
 (require 'popwin)
 (popwin-mode t)
+(evil-mode 1)
 
 (provide 'init-packages)
